@@ -115,6 +115,10 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(68,68,68,1) 100%);
     width: 100%;
     font-size: 18px;
 }
+a {
+    color: inherit;
+    text-decoration: none;
+  }
 .social-media_conatiner, .tg-link{
     width: 100%;
     margin-top: 25px;
