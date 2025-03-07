@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Love</title>
+    <link rel="stylesheet" href="./src/style/base/_reset.css">
+    <link rel="stylesheet" href="./src/style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    <style>
+        .swiper {
+            width: 100%;
+            padding: 15px;
+            max-width: 1000px;
+            height: 400px;
+            overflow: hidden; 
+        }
+        .swiper-wrapper {
+            transition-timing-function: ease-in-out; 
+        }
+        .swiper-slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #ddd;
+            width: 80px; /* Сделал карточки еще уже */
+            height: 400px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .swiper-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    
+        /* Стили для индикаторов */
+        .swiper-pagination-bullet {
+            background-color: rgb(66, 0, 128) !important;  /* Задаем цвет индикаторов */
+        }
+    
+        /* Для активного индикатора */
+        .swiper-pagination-bullet-active {
+            background-color: rgb(66, 0, 128) !important;
+        }
+    </style>
+    <style>
+        /* Стили для h1 */
+        h1 {
+            font-size: 50px;
+            font-weight: bold;
+            background: linear-gradient(90deg, #6600cc, #9b59b6, #6600cc); /* Фиолетовый градиент */
+            background-size: 200% 100%;
+            color: transparent;
+            -webkit-background-clip: text;  /* Для отображения градиента только на тексте */
+            animation: shine 6s linear infinite;  /* Анимация блеска */
+        }
+    
+        /* Анимация блеска */
+        @keyframes shine {
+            0% {
+                background-position: 200% 0;
+            }
+            50% {
+                background-position: -200% 0;
+            }
+            100% {
+                background-position: 200% 0;
+            }
+        }
+    </style>
+    
+    <main class="main">
+        <!-- ---------------------------------------------- -->
+        <div class="hero">
+            <div class="hero-container container">
+                <h1 class="hero-title">Люблю Тебя</h1>
+            </div>
+        </div>
+        <!-- ---------------------------------------------- -->
+
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./src/img/1.jpg" alt="Фото"></div>
+                <div class="swiper-slide"><img src="./src/img/2.jpg" alt="Фото"></div>
+                <div class="swiper-slide"><img src="./src/img/3.jpg" alt="Фото"></div>
+                <div class="swiper-slide"><img src="./src/img/4.jpg" alt="Фото"></div>
+                <div class="swiper-slide"><img src="./src/img/7.jpg" alt="Фото"></div>
+                <div class="swiper-slide"><img src="./src/img/5.jpg" alt="Фото"></div>
+                <div class="swiper-slide"><img src="./src/img/6.jpg" alt="Фото"></div>
+                
+                <div class="swiper-slide"><img src="./src/img/8.jpg" alt="Фото"></div>
+                <div class="swiper-slide"><img src="./src/img/9.jpg" alt="Фото"></div>
+                
+                
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script type="module" src="src/js/main.js"></script>
+        <div class="container-ava container">
+
+        <div class="ava">
+                <p class="ava-description">Это наши аватарки в телеграмме. Их предложила поставить Ксюша, и мне они нравятся.</p>
+                <div class="ava-photo">
+                <div class="border-img-ava">
+                    <article class="ava-img">
+                        <img src="src/img/my-ava.jpg" alt="">
+                    </article>
+                </div>
+                <div class="border-img-ava">
+                    <article class="ava-img">
+                        <img src="src/img/ksu-ava.jpg" alt="">
+                    </article>
+                </div>
+                </div>
+        </div>
+    </div>
+
+        <!-- ---------------------------------------------- -->
+        <div class="description">
+            <div class="description-conatiner conatiner">
+                <p>
+                    Ксюша — девушка, ради которой стоит постараться. Я могу сказать это точно.
+                    Сейчас ей трудно, даже сказал бы сложно. Сложно в учёбе, сложно со мной, сложно отойти от всего. Но она — та самая, кто приходит во снах, в кого ты влюбляешься по настоящему.
+                    Её улыбка с брекетами заставит любого улыбнуться вместе с ней, улететь на миг туда, где вместе с ней всегда почувствуешь её доброту и то тепло, которой так не хватает.
+                    Я плохо с ней поступил, и сейчас у нас не самый лучший период. Но я всегда обожал ее, хоть порой и не показывал этого поступками.
+                    Мне всегда нравилось слушать, как она жалуется на школу, свою соседку по парте или просто рассказывает как прошёл её день, и радоваться её достижениям вместе с ней.
+                    Ксюша всегда уступит выгоду другим, чем себе, — и это мне очень нравится в ней, хоть я и не всегда согласен с этим.
+                    С ней интересно гулять, что, на удивление, не с каждым человеком получается. Она всегда знает что то новое, всегда чем то поделится, даже молчать с ней очень комфортно.
+                    Любит показывать свою галерею — у неё там целая жизнь, все проблемы и воспоминания.
+                    Помню, как она очень долго писала текст именно для "того самого" парня в её жизни. Как же я прыгал от радости, когда получил его, перечитывая раз за разом.
+                    В общем, для меня она очень ценна, и я дорожу ею, как никем и ничем другим, и я хотел бы это доказать.    
+                </p>
+            </div>
+        </div>
+        <!-- ---------------------------------------------- -->
+        <div class="social-media">
+            <div class="social-media_conatiner conatiner">
+                <a href="https://t.me/Fliinnt" target="_blank" class="tg-link">
+                    <div class="tg"> 
+                        <svg width="25" height="25" class="icon">
+                            <use href="./src/img/symbol-defs.svg#icon-telegram" class="icon-tg" fill="#0088cc"></use>
+                          </svg>
+                        <div class="tg-photo">
+                            <img src="src/img/tg.jpg" alt="tg" class="social-media_photo">
+                        </div>
+                        <div class="description-tg">
+                            <ol class="tg-list">
+                                <li class="tg-item">Нет <span class="tg-span">O себе</span></li>
+                                <li class="tg-item">+380 63 986 50 72 <span class="tg-span">Телефон</span></li>
+                                <li class="tg-item">@Fliinnt <span class="tg-span">Имя пользователя</span></li>
+                            </ol>
+                        </div>
+                    </div>
+                </a>
+                <div class="inst">
+                    <a href="https://www.instagram.com/cutychoppa/" target="_blank" class="inst-link">
+                    <svg width="25" height="25" class="icon">
+                        <use href="./src/img/symbol-defs.svg#icon-instagram"></use>
+                      </svg>
+                    <div class="inst-d">
+                        <img src="src/img/inst.jpg" alt="inst" class="social-media_photo">
+                        <p class="nikname" style="font-size: 20px;">cutychoppa</p>
+                        </div>
+                        <div class="description-inst">
+                            <ol class="inst-list">
+                                <li class="inst-item">0 <span class="inst-span">публикаций</span></li>
+                                <li class="inst-item">995<span class="inst-span">подписчиков</span></li>
+                                <li class="inst-item">229<span class="inst-span">подписок</span></li>
+                            </ol>
+                            
+                        </div>
+                        <p class="inst-sub_title">
+                        How can I be lost <br>
+                        If I've got nowhere to go?</p>
+                    </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 3,
+                },
+                1024: {
+                    slidesPerView: 9,
+                }
+            }
+        });
+    </script>
+</body>
+</html>
